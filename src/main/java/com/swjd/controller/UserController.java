@@ -20,6 +20,7 @@ public class UserController {
     public String toLogin(Model model){
         User user=new User();
         model.addAttribute("user",user);
+        System.out.println("11");
         return "login";
     }
 
